@@ -23,12 +23,13 @@ module ExpenseTracker
     end
     get '/expenses/:date' do
       # JSON.generate([])
-      if params['date'] == '2017-06-12'
-        result = RecordResult.new(true, 417, nil)
-        JSON.generate('expense_id' => result.expense_id)
-      else
-        JSON.generate([])
-      end
+      # if params['date'] == '2017-06-12'
+      #   result = RecordResult.new(true, 417, nil)
+      #   JSON.generate('expense_id' => result.expense_id)
+      # else
+      #   JSON.generate([])
+      # end
+      JSON.generate(@ledger.expenses_on(params[:date]))
 
     end
 

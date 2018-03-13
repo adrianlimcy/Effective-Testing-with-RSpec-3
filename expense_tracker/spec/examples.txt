@@ -1,11 +1,15 @@
-example_id                                        | status  | run_time        |
-------------------------------------------------- | ------- | --------------- |
-./spec/aceptance/expense_tracker_api_spec.rb[1:1] | pending | 0.00104 seconds |
-./spec/aceptance/unit/app_spec.rb[1:1:1:1]        | passed  | 0.00057 seconds |
-./spec/aceptance/unit/app_spec.rb[1:1:1:2]        | passed  | 0.00074 seconds |
-./spec/aceptance/unit/app_spec.rb[1:1:2:1]        | passed  | 0.01441 seconds |
-./spec/aceptance/unit/app_spec.rb[1:1:2:2]        | passed  | 0.00067 seconds |
-./spec/aceptance/unit/app_spec.rb[1:2:1:1]        | passed  | 0.02795 seconds |
-./spec/aceptance/unit/app_spec.rb[1:2:1:2]        | passed  | 0.00162 seconds |
-./spec/aceptance/unit/app_spec.rb[1:2:2:1]        | passed  | 0.00056 seconds |
-./spec/aceptance/unit/app_spec.rb[1:2:2:2]        | passed  | 0.0004 seconds  |
+example_id                                        | status | run_time        |
+------------------------------------------------- | ------ | --------------- |
+./spec/aceptance/expense_tracker_api_spec.rb[1:1] | passed | 0.02913 seconds |
+./spec/aceptance/unit/app_spec.rb[1:1:1:1]        | passed | 0.00063 seconds |
+./spec/aceptance/unit/app_spec.rb[1:1:1:2]        | passed | 0.00086 seconds |
+./spec/aceptance/unit/app_spec.rb[1:1:2:1]        | passed | 0.03276 seconds |
+./spec/aceptance/unit/app_spec.rb[1:1:2:2]        | passed | 0.00157 seconds |
+./spec/aceptance/unit/app_spec.rb[1:2:1:1]        | passed | 0.00063 seconds |
+./spec/aceptance/unit/app_spec.rb[1:2:1:2]        | passed | 0.00145 seconds |
+./spec/aceptance/unit/app_spec.rb[1:2:2:1]        | passed | 0.00056 seconds |
+./spec/aceptance/unit/app_spec.rb[1:2:2:2]        | passed | 0.00055 seconds |
+./spec/integration/app/ledger_spec.rb[1:1:1:1]    | passed | 0.0068 seconds  |
+./spec/integration/app/ledger_spec.rb[1:1:2:1]    | passed | 0.00206 seconds |
+./spec/integration/app/ledger_spec.rb[1:2:1]      | passed | 0.00307 seconds |
+./spec/integration/app/ledger_spec.rb[1:2:2]      | passed | 0.00032 seconds |
