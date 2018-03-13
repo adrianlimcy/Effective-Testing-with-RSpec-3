@@ -72,7 +72,7 @@ module ExpenseTracker
           expect(@parsed).to eq([])
         end
         it 'responds with a 200 (OK)' do
-          get '/expenses/2017-06-12'
+          get '/expenses/2017-12-12'
           expect(last_response.status).to eq(200)
         end
       end
